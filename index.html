@@ -1,11 +1,246 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="resume.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/fe17876d06.js" crossorigin="anonymous"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Parisienne&display=swap" rel="stylesheet">    
     <title>Portfolio</title>
 </head>
-<body>
+
+<body style="background-image: url('media/bg.png');">
+
     
+    <header>
+        <h1><strong>Falak Salim</strong></h1>
+        
+        <nav>
+            <ul>
+                <li><a href="#me" class="btn">About Me</a></li>
+                <li class="dropdown">
+                   <a href="#" class="dropbtn">Explore</a>
+                   <div class="dropdown-content">
+                      <a href="#education" class="btn">Education</a>
+                      <a href="#skills" class="btn">Technical Skills</a>
+                      <a href="#learning" class="btn">Currently Learning</a>
+                      <a href="#project" class="btn">Projects</a>
+                   </div>
+                </li>
+                <li><a href="#social" class="btn">Contact</a></li>
+                <li><button class="download-btn">Download Resume</button></li>
+            </ul>
+            
+        </nav>
+    </header>
+    <div class="profile" id="me">
+        <div class="grid">
+            <div class="card-1">
+                <div class="left">
+                    <h1>Hello! I'm Falak.</h1>
+                    <p>
+                        A dedicated and motivated student with a strong commitment to learning and contributing to the
+                        advancement of knowledge in the field. 
+                        I am an enthusiastic and driven third-year student at International Islamic University Chitagong, currently pursuing a degree in Computer Science and Engineering. 
+                        Throughout my academic journey, I’ve developed strong problem-solving, communication, and organizational skills, and I am passionate about web-development. 
+                        My involvement in extracurricular activities has provided me with hands-on experience, helping me refine my ability to collaborate effectively, manage time efficiently, and approach challenges with a creative mindset.
+                        I am excited to continue learning and growing while contributing my skills and ideas to projects and teams that promote innovation and positive change.
+                        <br>
+                        In the future, I aim to leverage my education and experiences to make a meaningful impact in web development, and I am committed to developing professionally through continuous learning and diverse opportunities. 
+                        My goal is to become a versatile professional who can adapt to the ever-changing demands of the industry, while making valuable contributions to both my team and the broader community.
+
+
+                    </p>
+                </div>
+            </div>
+            <div class="card-2">
+                <div class="right">
+                    <img src="media/f.jpeg">
+                </div>
+            </div>
+           
+        </div>
+    </div>
+    <br>
+    <div class="card" id="education">
+        <h2><i class="fas fa-graduation-cap"></i><strong><u>Education</u></strong></h2>
+            <div class="edu">
+                <p>Chittagong Grammar School</p>
+                <p>SSC - 2019</p>
+                <hr>
+            </div>
+            <div class="edu">
+                <p>Cantonment English School and College</p>
+                <p>HSC - 2021</p>
+                <hr>
+            </div>
+            <div class="edu">
+                <p>International Islamic University Chittagong</p>
+                <p>B.Sc in Computer Science and Engineering - 2026</p>
+            </div>
+    </div>
+    <div class="card" id="skills">        
+            <h2><i class="fa-solid fa-laptop-code"></i><strong><u>Technical Skills</u></strong></h2>
+            <div class="skill-con">
+                <p><strong>SQL</strong></p>
+                <div class="skills-bar"><div style="width: 70%; background-color: #e0c7f9;"></div></div>
+                <p><strong>HTML</strong></p>
+                <div class="skills-bar"><div style="width: 50%; background-color: #e0c7f9;"></div></div>
+                <p><strong>CSS</strong></p>
+                <div class="skills-bar"><div style="width: 50%; background-color: #e0c7f9;"></div></div>
+                <p><strong>MS Word</strong></p>
+                <div class="skills-bar"><div style="width: 90%; background-color: #e0c7f9;"></div></div>
+                <p><strong>C</strong></p>
+                <div class="skills-bar"><div style="width: 75%; background-color: #e0c7f9;"></div></div>
+            </div>
+    </div>
+    <div class="card" id="learning">
+        <h2><i class="fa-solid fa-laptop"></i><strong><u>Currently Learning</u></strong></h2>
+        <div class="flex target-container">
+            <div class="target-1-container">
+                <img src="media/JS.jpg" alt="JavaScript">
+                <h1>JavaScript</h1>
+                <p>Learning the fundamentals of JS programming.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="target-2-container">
+                <img src="media/HTML.jpg" alt="React">
+                <h1>HTML</h1>
+                <p>Building interactive UIs with React.js.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="target-3-container">
+                <img src="media/CSS.jpg" alt="Node.js">
+                <h1>CSS</h1>
+                <p>Developing server-side applications with Node.js.</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+    <div class="card" id="project">
+        <h2><i class="fa-solid fa-file-code"></i><strong><u>Projects</u></strong></h2>
+        <div class="project-card">
+            <img src="media/bus.gif">
+            <div class="project-text">
+            <a href="https://github.com/F4L4K/Bus-Ticket-Reservation-C" target="_blank"><h3>Bus Ticket Reservation System</a></h3>
+            <p>
+                <strong>Programming Language: C</strong>
+                <br>
+                My first-ever project! This project was completed during my first semester and was a group effort.   
+                Our project enabled the users to book bus tickets, check bus details, and print tickets. 
+                We used file handling for data storage and structure to manage the details.
+            </p>
+            </div> 
+        </div>
+        <br>
+        <div class="project-card">
+            <img src="media/bus2.gif" >
+            <div class="project-text">
+            <a href="https://github.com/F4L4K/Bus-Ticket-Reservation-System-cpp-.git" target="_blank"><h3>Bus Ticket Reservation System</a></h3>
+            <p>
+                <strong>Programming Language: C++</strong>
+                <br>
+                This project was completed during my second semester and it was also a group effort.
+                Our project allowed the users to book,cancel, and manage tickets, check bus details, and print tickets. 
+                It utilizes OOP principles like 'class' and 'objects' to handle the bus details and reservations. 
+                This project is an improved version of our project done using C.
+            </p>
+            </div> 
+        </div>
+        <br>
+        <div class="project-card">
+            <img src="media/student.gif">
+            <div class="project-text">
+            <a href="https://github.com/F4L4K/Student-Management-System.git" target="_blank"><h3>Student Management System</a></h3>
+            <p>
+                <strong>Programming Language: C++</strong>
+                <br>
+                This project was done for the Data Structures course.  
+                This C++ program is a simple Student Management System that helps manage student records.
+                You can add, view, update, delete, and search for student information, record attendance, and sort records by grade or semester.
+                It saves all data in text files for future use and includes a basic login for security. 
+            </p>
+            </div> 
+        </div>
+        <br>
+        <div class="project-card">
+            <img src="media/help.gif">
+            <div class="project-text">
+            <a href="https://github.com/F4L4K/Disaster-Relief-Management.git" target="_blank"><h3>Disaster Relief Management System</a></h3>
+            <p>
+                <strong>Programming Language: C++</strong>
+                <br>
+                This project was done for the Computer Algorithms course.
+                This project is designed to streamline disaster relief operations.
+                It helps manage incidents, assign rescue teams, track team movements, and allocate people to shelters.
+                It also handles supplies by allowing users to add and view supply packages.
+                The system uses Dijkstra's algorithm to find the shortest paths for efficient team deployment and shelter allocation.
+            </p>
+            </div> 
+        </div>
+        <br>
+        <div class="project-card">
+            <img src="media/crime.gif" >
+            <div class="project-text">
+            <a href="https://github.com/F4L4K/Crime-Record-Management-System.git" target="_blank"><h3>Crime Record Management System</a></h3>
+            <p>
+                <strong>Programming Language: SQL, HTML, CSS, Python</strong>
+                <br>
+                This project was required for the Database Management System course.
+                The Crime Record Management System is a user-friendly platform designed for law enforcement to efficiently manage crime-related data.
+                It provides a secure, centralized system to store and access criminal records, track investigations,
+                and maintain accurate documentation from start to finish, improving efficiency and supporting law enforcement efforts.
+            </p>
+            </div> 
+        </div>
+    </div>
+    <div class="card" id="social">
+        <h2><i class="fa-solid fa-phone"></i><strong><u>Contact</u></strong></h2>
+        <div class="contact">
+            
+            
+            <div class="container">
+                <form action="action_page.php">
+              
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            
+                  <label for="subject">Subject</label>
+                  <textarea id="subject" name="subject" placeholder="Write something.." value="required"></textarea>
+              
+                  <input type="submit" value="Submit">
+              
+                </form>
+
+
+                
+
+            </div>
+            <div class="box">
+                <div class="socials">
+                    <p><i class="fa fa-phone w3-hover-opacity"></i>01819787876</p>
+                    <p><i class="fa fa-envelope-open" aria-hidden="true"></i>falak_s@gmail.com</p>
+                    <p><i class="fa fa-facebook w3-hover-opacity"></i> <a href="https://www.facebook.com">Falak Salim</p></a>
+                    <p><i class="fa fa-instagram w3-hover-opacity"></i><a href="https://www.instagram.com">falak__</p></a>
+                    <p><i class="fa fa-linkedin w3-hover-opacity"></i><a href="https://www.linkedin.com">Falak Salim</p></a>
+                    <p><i class="fa fa-github w3-hover-opacity"></i><a href="https://www.github.com">falak_s1</p></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>All Rights Reserved.2025.</p>
+    </footer>
 </body>
+
 </html>

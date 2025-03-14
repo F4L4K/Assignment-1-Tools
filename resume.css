@@ -1,0 +1,332 @@
+header {
+    text-align: center;
+    color: rgb(55, 12, 95);
+}
+header h1{
+    font-family: 'Parisienne',cursive;
+    font-size: 45px;
+}
+body {
+    background-color: #f4f7f6;
+    background-attachment: fixed;
+}
+
+.grid {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.profile {
+    max-width: 1200px;
+}
+
+.card-1 {
+    background-color: white;
+    border: 4px solid #a47ece;   /* #e0c7f9*/
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 60px;
+    text-align: justify;
+    width: 700px;
+    height: 350px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-2 {
+    /* background-color: #a47ece;     #e0c7f9; */
+    border: 4px solid #a47ece;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 4px rgba(0, 0, 0, 0.1); /*top,right,bottom,left*/
+    padding: 20px;
+    width: 300px;
+    height: 350px;
+
+}
+
+img {
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    border: 3px solid #a47ece;
+}
+
+.card {
+    background-color: #ffffff;
+    border: 4px solid #a47ece;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(63, 61, 61, 0.1);
+    padding: 20px;
+    margin-bottom: 30px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.skills-bar {
+    height: 10px;
+    width: 100%;
+    background-color: #eee;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.skills-bar div {
+    height: 100%;
+    border-radius: 5px;
+}
+
+.card h2 i {
+    margin-right: 5px;
+
+}
+
+.target-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.target-1-container,
+.target-2-container,
+.target-3-container {
+    background-color: #ffffff;
+    border: 2px solid #e0c7f9;
+    border-radius: 10px;
+    padding: 20px;
+    width: 280px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.target-1-container img,
+.target-2-container img,
+.target-3-container img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.target-1-container h1,
+.target-2-container h1,
+.target-3-container h1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.target-1-container p,
+.target-2-container p,
+.target-3-container p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.target-1-container a,
+.target-2-container a,
+.target-3-container a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.target-1-container a:hover,
+.target-2-container a:hover,
+.target-3-container a:hover {
+    color: #5a47a4;
+}
+
+.project-card img {
+    width: 120px;
+    height: 120px;
+
+}
+
+.project-card {
+    display: flex;
+    padding: 15px;
+    background-color: #ffffff;
+    border: 2px solid #e0c7f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: auto;
+}
+
+.project-text {
+    margin-left: 20px;
+    margin-bottom: 0;
+}
+
+.project-text h3 {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #000;
+}
+
+a:hover {
+    color: #9572c5;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #a47ece;
+}
+
+li {
+    float: left;
+}
+
+li a,
+.dropbtn {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #d5b8f4;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #a47ece;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ffffff;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block; 
+}
+
+.download-btn {
+    background-color: #a47ece;
+    color: white;
+    border: none;
+    padding: 14px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    justify-content: right; 
+}
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.socials p {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.socials i {
+    margin-right: 10px;
+    color: #a47ece;
+}
+
+.socials .fa {
+    padding: 8px;
+    font-size: 18px;
+    color: #a47ece;
+    margin-left: 10px;
+    text-align: left;
+}
+
+.socials a{
+    text-decoration: none;
+    color: #000;
+}
+
+.socials .fa:hover {
+    opacity: 0.7;
+}
+
+.contact h3{
+    justify-content: right;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 6px;
+    resize: vertical
+}
+
+
+input[type=submit] {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #9b5bd6;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #e0c7f9;
+    padding: 20px;
+}
+
+.box{
+    margin-right: 25px;
+}
+
+footer{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #a47ece;
+}
+
+footer p{
+    text-align: center;
+    /* margin-right: 15px; */
+}
